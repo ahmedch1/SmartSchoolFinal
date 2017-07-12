@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "397124669065",
+    "firebase_url": "https://smartschoolfinal.firebaseio.com",
+    "project_id": "smartschoolfinal",
+    "storage_bucket": "smartschoolfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397124669065:android:2c68a5edafe641c5",
+        "android_client_info": {
+          "package_name": "ahmedchtn.smartschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397124669065-p3m4svmfm1ksg6tug7r3aluuchv6v902.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWueiL3RywZmcBji6uChhYMX_wiS1W1vY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

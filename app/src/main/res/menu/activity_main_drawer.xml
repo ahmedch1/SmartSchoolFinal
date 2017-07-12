@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/marks"
+            android:title="@string/nav_marks" />
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/exams"
+            android:title="@string/nav_exams" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/courses"
+            android:title="@string/nav_courses" />
+        <item
+            android:id="@+id/nav_discipline"
+            android:icon="@drawable/discipline"
+            android:title="@string/nav_discipline" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/messages"
+            android:title="@string/nav_messages" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable"
+            android:title="@string/nav_timetable" />
+    </group>
+
+</menu>
