@@ -158,10 +158,10 @@ public class MainActivity extends AppCompatActivity {
                 if(requestCode==RC_SIGN_IN){
                     if(resultCode==RESULT_OK){
                         //Sign-in succeeded,set up the UI
-                        Toast.makeText(this, "Signed in!", Toast.LENGTH_SHORT).show();
+                   // **     Toast.makeText(this, "Signed in!", Toast.LENGTH_SHORT).show();
                     }else if(resultCode==RESULT_CANCELED){
                         //Sign in was canceled by the user,finidh the activity
-                        Toast.makeText(this,"Sign in canceled",Toast.LENGTH_SHORT).show();
+                        // ** Toast.makeText(this,"Sign in canceled",Toast.LENGTH_SHORT).show();
                         finish();
 
                     }
@@ -454,7 +454,7 @@ public class MainActivity extends AppCompatActivity {
         if(mAuthStateListener!=null) {
             mFirebaseAuth.removeAuthStateListener(mAuthStateListener);
         }
-        mMessageAdapter.clear();
+        // **  mMessageAdapter.clear();
     }
 
     @Override
@@ -463,16 +463,16 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseAuth.addAuthStateListener(mAuthStateListener);
     }
     private void onSignedInInitialize(String username){
-        mUsername=username;
+       // ** mUsername=username;
 
     }
     private void onSignedOutCleanup(){
-        mUsername=ANONYMOUS;
-        mMessageAdapter.clear();
+        // ** mUsername=ANONYMOUS;
+        // ** mMessageAdapter.clear();
     }
 
         }
-    }
-}
+
+
 
 
